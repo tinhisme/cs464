@@ -1,0 +1,12 @@
+D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe.config
+D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe
+D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.pdb
+D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.AssemblyReference.cache
+D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.Properties.Resources.resources
+D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.GenerateResource.cache
+D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.CoreCompileInputs.cache
+D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.exe
+D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.pdb
+D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.GUI.Category1.resources
+D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\bin\Debug\BanHang.mdf
+D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\bin\Debug\BanHang_log.ldf
