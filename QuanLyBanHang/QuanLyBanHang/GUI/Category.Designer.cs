@@ -36,9 +36,6 @@ namespace QuanLyBanHang.GUI
             this.txtDescriptionCategory = new System.Windows.Forms.TextBox();
             this.btnAddCategory = new System.Windows.Forms.Button();
             this.dataGridViewCategory = new System.Windows.Forms.DataGridView();
-            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnUpdateCategory = new System.Windows.Forms.Button();
             this.btnDeleteCategory = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCategory)).BeginInit();
@@ -98,10 +95,6 @@ namespace QuanLyBanHang.GUI
             // dataGridViewCategory
             // 
             this.dataGridViewCategory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewCategory.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Id,
-            this.Name,
-            this.Description});
             this.dataGridViewCategory.Location = new System.Drawing.Point(12, 237);
             this.dataGridViewCategory.Name = "dataGridViewCategory";
             this.dataGridViewCategory.RowHeadersWidth = 62;
@@ -109,31 +102,6 @@ namespace QuanLyBanHang.GUI
             this.dataGridViewCategory.Size = new System.Drawing.Size(776, 253);
             this.dataGridViewCategory.TabIndex = 6;
             this.dataGridViewCategory.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCategory_CellClick);
-            // 
-            // Id
-            // 
-            this.Id.DataPropertyName = "Id";
-            this.Id.HeaderText = "Id";
-            this.Id.MinimumWidth = 8;
-            this.Id.Name = "Id";
-            this.Id.Visible = false;
-            this.Id.Width = 150;
-            // 
-            // Name
-            // 
-            this.Name.DataPropertyName = "Name";
-            this.Name.HeaderText = "Name";
-            this.Name.MinimumWidth = 8;
-            this.Name.Name = "Name";
-            this.Name.Width = 150;
-            // 
-            // Description
-            // 
-            this.Description.DataPropertyName = "Description";
-            this.Description.HeaderText = "Description";
-            this.Description.MinimumWidth = 8;
-            this.Description.Name = "Description";
-            this.Description.Width = 500;
             // 
             // btnUpdateCategory
             // 
@@ -169,7 +137,7 @@ namespace QuanLyBanHang.GUI
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name.Name = "Category1";
+            this.Name = "Category1";
             this.Text = "Danh Mục";
             this.Load += new System.EventHandler(this.Category_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCategory)).EndInit();
@@ -187,9 +155,6 @@ namespace QuanLyBanHang.GUI
         private System.Windows.Forms.TextBox txtDescriptionCategory;
         private System.Windows.Forms.Button btnAddCategory;
         private System.Windows.Forms.DataGridView dataGridViewCategory;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Description;
         private System.Windows.Forms.Button btnUpdateCategory;
         private System.Windows.Forms.Button btnDeleteCategory;
     }

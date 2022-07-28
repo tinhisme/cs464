@@ -39,12 +39,12 @@ namespace QuanLyBanHang
             cmd.ExecuteNonQuery();
         }
 
-        public object Scalar(string sql)
+        public int Scalar(string sql)
         {
-            Open();
+            connection.Open();
             SqlCommand comm = new SqlCommand(sql, connection);
             int result = (int)comm.ExecuteScalar();
-            Close();
+            connection.Close();
             return result;
         }
 

@@ -10,3 +10,7 @@ D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.pdb
 D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.GUI.Category1.resources
 D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\bin\Debug\BanHang.mdf
 D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\bin\Debug\BanHang_log.ldf
+D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.GUI.Login.resources
+D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.GUI.Index.resources
+D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.GUI.Suplier.resources
+D:\Learning\CS464\DACN\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.GUI.Product.resources

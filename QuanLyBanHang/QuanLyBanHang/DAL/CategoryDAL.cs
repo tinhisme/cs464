@@ -26,7 +26,7 @@ namespace QuanLyBanHang.DAL
 
         public bool insertCategory(DTO.Category cate)
         {
-            string sql = "insert into Category(name, description) values(@name,@description)";
+            string sql = "insert into Category(Namecategory, description) values(@name,@description)";
             SqlConnection conn = core.GetConnection();
             try
             {
@@ -46,7 +46,7 @@ namespace QuanLyBanHang.DAL
 
         public bool updateCategory(DTO.Category cate)
         {
-            string sql = "UPDATE  Category set name = @name, description = @description where id = @id";
+            string sql = "UPDATE  Category set Namecategory = @name, description = @description where id = @id";
             SqlConnection conn = core.GetConnection();
             try
             {

@@ -64,9 +64,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL\CategoryBLL.cs" />
+    <Compile Include="BLL\LoginBLL.cs" />
+    <Compile Include="BLL\SuplierBLL.cs" />
     <Compile Include="Core.cs" />
     <Compile Include="DAL\CategoryDAL.cs" />
+    <Compile Include="DAL\LoginDAL.cs" />
+    <Compile Include="DAL\SuplierDAL.cs" />
+    <Compile Include="DTO\Account.cs" />
     <Compile Include="DTO\Category.cs" />
+    <Compile Include="DTO\Suplier.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,10 +85,46 @@
     <Compile Include="GUI\Category.Designer.cs">
       <DependentUpon>Category.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Index.Designer.cs">
+      <DependentUpon>Index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Suplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Suplier.Designer.cs">
+      <DependentUpon>Suplier.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GUI\Category.resx">
       <DependentUpon>Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Index.resx">
+      <DependentUpon>Index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Suplier.resx">
+      <DependentUpon>Suplier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
