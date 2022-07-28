@@ -65,13 +65,16 @@
   <ItemGroup>
     <Compile Include="BLL\CategoryBLL.cs" />
     <Compile Include="BLL\LoginBLL.cs" />
+    <Compile Include="BLL\ProductBLL.cs" />
     <Compile Include="BLL\SuplierBLL.cs" />
     <Compile Include="Core.cs" />
     <Compile Include="DAL\CategoryDAL.cs" />
     <Compile Include="DAL\LoginDAL.cs" />
+    <Compile Include="DAL\ProductDAL.cs" />
     <Compile Include="DAL\SuplierDAL.cs" />
     <Compile Include="DTO\Account.cs" />
     <Compile Include="DTO\Category.cs" />
+    <Compile Include="DTO\Product.cs" />
     <Compile Include="DTO\Suplier.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

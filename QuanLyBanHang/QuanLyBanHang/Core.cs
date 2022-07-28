@@ -67,5 +67,15 @@ namespace QuanLyBanHang
             }
             return dt;
         }
+
+        public DataTable showCombobox(string query)
+        {
+            connection.Open();
+            Open();
+            SqlDataAdapter da = new SqlDataAdapter(query, connection);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
     }
 }

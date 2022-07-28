@@ -31,6 +31,8 @@ namespace QuanLyBanHang.GUI
         {
             this.label1 = new System.Windows.Forms.Label();
             this.btnCategory = new System.Windows.Forms.Button();
+            this.btnProduct = new System.Windows.Forms.Button();
+            this.btnSuplier = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -52,11 +54,33 @@ namespace QuanLyBanHang.GUI
             this.btnCategory.UseVisualStyleBackColor = true;
             this.btnCategory.Click += new System.EventHandler(this.btnCategory_Click);
             // 
+            // btnProduct
+            // 
+            this.btnProduct.Location = new System.Drawing.Point(278, 76);
+            this.btnProduct.Name = "btnProduct";
+            this.btnProduct.Size = new System.Drawing.Size(102, 64);
+            this.btnProduct.TabIndex = 2;
+            this.btnProduct.Text = "Sản Phẩm";
+            this.btnProduct.UseVisualStyleBackColor = true;
+            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
+            // 
+            // btnSuplier
+            // 
+            this.btnSuplier.Location = new System.Drawing.Point(451, 76);
+            this.btnSuplier.Name = "btnSuplier";
+            this.btnSuplier.Size = new System.Drawing.Size(130, 64);
+            this.btnSuplier.TabIndex = 3;
+            this.btnSuplier.Text = "Nhà Cung Cấp";
+            this.btnSuplier.UseVisualStyleBackColor = true;
+            this.btnSuplier.Click += new System.EventHandler(this.btnSuplier_Click);
+            // 
             // Index
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(817, 482);
+            this.Controls.Add(this.btnSuplier);
+            this.Controls.Add(this.btnProduct);
             this.Controls.Add(this.btnCategory);
             this.Controls.Add(this.label1);
             this.Name = "Index";
@@ -70,5 +94,7 @@ namespace QuanLyBanHang.GUI
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCategory;
+        private System.Windows.Forms.Button btnProduct;
+        private System.Windows.Forms.Button btnSuplier;
     }
 }

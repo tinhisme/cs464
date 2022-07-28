@@ -22,5 +22,17 @@ namespace QuanLyBanHang.GUI
             GUI.Category1 cate = new Category1();
             cate.Show();
         }
+
+        private void btnProduct_Click(object sender, EventArgs e)
+        {
+            GUI.Product pro = new Product();
+            pro.Show();
+        }
+
+        private void btnSuplier_Click(object sender, EventArgs e)
+        {
+            GUI.Suplier sup = new Suplier();
+            sup.Show();
+        }
     }
 }
