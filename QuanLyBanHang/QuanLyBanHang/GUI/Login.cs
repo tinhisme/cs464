@@ -21,6 +21,7 @@ namespace QuanLyBanHang.GUI
             core = new Core();
         }
 
+        int dem = 0;
         private void btnLogin_Click(object sender, EventArgs e)
         {
             DTO.Account acc = new DTO.Account();
@@ -34,7 +35,15 @@ namespace QuanLyBanHang.GUI
                 index.Show();
             }    
             else
-                MessageBox.Show("Login thất bại");
+            {
+                dem++;
+                MessageBox.Show("Lỗi đăng nhập lần " + dem);
+                if (dem == 3)
+                {
+                    MessageBox.Show("Bạn đã nhập sai 3 lần. Thoát chương trình");
+                    Application.Exit();
+                }
+            }    
         }
     }
 }

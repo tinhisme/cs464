@@ -63,16 +63,22 @@ namespace QuanLyBanHang.GUI
         int id;
         private void dataGridViewProduct_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            int index = e.RowIndex;
-            if (index >= 0)
-            {
-                id = Int32.Parse(dataGridViewProduct.Rows[index].Cells["id"].Value.ToString());
-                txtName.Text = dataGridViewProduct.Rows[index].Cells["nameproduct"].Value.ToString();
-                txtQuantity.Text = dataGridViewProduct.Rows[index].Cells["quantity"].Value.ToString();
-                txtPrice.Text = dataGridViewProduct.Rows[index].Cells["price"].Value.ToString();
-                cbCategory.Text = dataGridViewProduct.Rows[index].Cells["category_id"].Value.ToString();
-                cbSuplier.Text = dataGridViewProduct.Rows[index].Cells["suplier_id"].Value.ToString();
-            }
+            //int index = e.RowIndex;
+            //if (index >= 0)
+            //{
+            //    id = Int32.Parse(dataGridViewProduct.Rows[index].Cells["id"].Value.ToString());
+            //    txtName.Text = dataGridViewProduct.Rows[index].Cells["nameproduct"].Value.ToString();
+            //    txtQuantity.Text = dataGridViewProduct.Rows[index].Cells["quantity"].Value.ToString();
+            //    txtPrice.Text = dataGridViewProduct.Rows[index].Cells["price"].Value.ToString();
+            //    cbCategory.Text = dataGridViewProduct.Rows[index].Cells["category_id"].Value.ToString();
+            //    cbSuplier.Text = dataGridViewProduct.Rows[index].Cells["suplier_id"].Value.ToString();
+            //}
+            id = Int32.Parse(dataGridViewProduct.CurrentRow.Cells["id"].Value.ToString());
+            txtName.Text = dataGridViewProduct.CurrentRow.Cells["nameproduct"].Value.ToString();
+            txtQuantity.Text = dataGridViewProduct.CurrentRow.Cells["quantity"].Value.ToString();
+            txtPrice.Text = dataGridViewProduct.CurrentRow.Cells["price"].Value.ToString();
+            cbCategory.SelectedValue = dataGridViewProduct.CurrentRow.Cells["category_id"].Value.ToString();
+            cbSuplier.SelectedValue = dataGridViewProduct.CurrentRow.Cells["suplier_id"].Value.ToString();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
